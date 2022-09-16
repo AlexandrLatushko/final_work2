@@ -3,6 +3,11 @@
   margin: 0;
   padding: 0;}
 
+  @font-face {
+    font-family: "Asap";
+    src: url(fons/Asap/static/Asap-Regular.ttf);
+  }
+
  
 
 .header_top-menu {    
@@ -72,12 +77,10 @@
   text-decoration: none;
   transition:font-size ;
   transition-duration: 500ms;
-
 }
 
 .link_navigation:hover {
   font-size:20px;
-
 }
 
 .tel {
@@ -104,7 +107,7 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 18px;
-  color: #000000;
+  color:rgb(0, 0, 0);
 }
 
 
@@ -443,6 +446,10 @@
   line-height: 23px;
 }
 
+.paragraph_people {
+  margin-top: 20px;
+}
+
 .sam_andrews {
   margin-top: 50px;
   font-weight: 700;
@@ -606,6 +613,10 @@
 }
 
 @media screen and (max-width:768px) { 
+
+  .icon_tel {
+    display: none;
+  }
   
   .link_navigation {
     font-size: 10px;
